@@ -5,6 +5,7 @@ import { Link } from "react-router-dom"
 function Header_() {
 
 
+    
 
     const signed = sessionStorage.getItem("signed");
     console.log(signed);
@@ -18,6 +19,7 @@ function Header_() {
                 <ul>
                     <li>
                         <Link to="/">Home</Link>
+                        <Link to="/catalog">Catalog</Link>
                         <Link to="/aboutus">About us</Link>
                         <Link to="/contact">Contact</Link>
                         {/* <Link to="/test">Test</Link> */}

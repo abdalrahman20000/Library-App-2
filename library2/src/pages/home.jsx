@@ -2,10 +2,13 @@ import Header from "../component/header"
 import Footer from "../component/footer"
 import Books from "../data/books_info"
 
+
+
 function Home_() {
 
-    let books = Books();
+    const books = Books();
 
+    
     
 
     return (

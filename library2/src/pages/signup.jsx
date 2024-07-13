@@ -1,5 +1,3 @@
-import Header from "../component/header";
-import Footer from '../component/footer';
 
 import {useState} from "react"
 import { useNavigate } from "react-router-dom";
@@ -38,8 +36,7 @@ function Signup_() {
 
     return (
         <>
-            {/* <Header></Header> */}
-            <main>
+            <main >
                 <form onSubmit={handel_signup} >
                     <label htmlFor="">Name :
                         <br />
@@ -76,7 +73,6 @@ function Signup_() {
                     <button type="submit">Sign up</button>
                 </form>
             </main>
-            {/* <Footer></Footer> */}
         </>
     )
 }
