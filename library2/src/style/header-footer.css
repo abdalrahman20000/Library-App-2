@@ -1,0 +1,54 @@
+header {
+    background-color: #ecebff;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: #574ff1;
+}
+
+.logo {
+    width: 25%;
+}
+
+nav {
+    width: 50%;
+}
+
+.icons {
+    width: 25%;
+    text-align: end;
+    padding: 0px 10px;
+}
+
+footer {
+    background-color: #ecebff;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+.content {
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}

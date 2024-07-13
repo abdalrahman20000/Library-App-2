@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #ecebff;
+    margin: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 200px;
+    height: 300px;
+    border-bottom: 2px solid #b0acfc;
+    /* padding: 1px; */
+  }
+  
+  .card h2,
+  h4,
+  p {
+    text-align: end;
+    margin: 10px;
+  }
